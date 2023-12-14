@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Roboto&display=swap"
+    rel="stylesheet">
+  <title>Account approval</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Barlow', Helvetica, sans-serif;
+      background-color: rgb(229 231 235);
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 650px;
+      margin: 0 auto;
+      padding: 2rem 0;
+      padding-top: 0;
+      text-align: center;
+    }
+
+    .header {
+      padding: 1em 0;
+    }
+
+    .header span {
+      font-weight: 600;
+    }
+
+    .logo {
+      width: 100px;
+    }
+
+    .title {
+      font-weight: 400;
+    }
+
+    .main {
+      background-color: #fff;
+      padding: 1.5em;
+      border-radius: .15rem;
+      color: rgb(94 94 94);
+      font-size: 0.875rem;
+    }
+
+    .main + .main {
+      margin-top: 2rem;
+    }
+
+    .main img {
+      width: 120px;
+    }
+
+    .main p {
+      margin: 1em 0;
+    }
+
+    .main span {
+      font-weight: 600;
+    }
+
+    .main .credentials {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
+
+    .hr {
+      height: 1px;
+      width: 75%;
+      background-color: rgb(241 245 249);
+      border-bottom: 0;
+      margin: 0 auto 1rem;
+    }
+
+    .cta-section a {
+      text-decoration: none;
+      color: rgb(52 144 236);
+    }
+
+    .main button {
+      background-color: rgb(52 144 236);
+      border: 0;
+      border-radius: 999px;
+      padding: 0.65em 3.5em;
+      color: #fff;
+      font-weight: 600;
+      margin: 1em 0;
+      cursor: pointer;
+    }
+
+    .playstore-btn {
+      width: 10rem;
+      margin: 0 auto;
+      padding: 0.25rem 0.75rem;
+      background-color: rgb(12 10 9);
+      display: grid;
+      place-items: center;
+      border-radius: 999px;
+    }
+
+    .main button:hover {
+      opacity: 0.8;
+    }
+
+    .footer {
+      margin-top: 1em;
+    }
+
+    .footer img {
+      width: 40px;
+    }
+
+    .footer .outro {
+      font-size: 0.75rem;
+    }
+
+    .outro p {
+      margin: .4em 0;
+    }
+
+    .footer .company {
+      font-weight: 600;
+    }
+
+    @media screen and (max-width: 550px) {
+      body {
+        font-size: .875rem;
+      }
+
+      .container {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="container">
+    <header class="header">
+      <img class="logo" src="./images/Logo.svg" alt="logo">
+      <h1 class="title">Congratulations! <span>[Parent first name]!</span>, your child has been
+        admitted to <span>[Lead Academy]</span></h1>
+    </header>
+
+    <main class="main">
+      <img src="./images/Ellipse 38.svg" alt="profile woman">
+
+      <p>We are thrilled to share that your child [Child name], has been successfully admitted to [School
+        name]. We extend our warmest Congratulations!</p>
+
+      <div class="credentials">
+        <p style="margin: 0; margin-bottom: 0.2rem;">Please login with the following details:</p>
+        <span class="">Username: Leads1242</span>
+        <span class="">Password: 03949505</span>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="cta-section">
+        <p style="margin: 0;">Access our website and stay connected with your child&apos;s academic journey.</p>
+        <a class="" href="#">https://www.guident.tech</a>
+      </div>
+
+      <button>Get started</button>
+    </main>
+
+    <main class="main">
+      <h2> Stay connected with your CHILD!</h2>
+
+      <p>Get the most of GUIDENT APP by installing our mobile app. You can login
+        by using your existing email address and password</p>
+
+      <a href="#" class="playstore-btn">
+        <img src="./images/playstore.svg" alt="google play" class="rounded-full m-0 w-full">
+      </a>
+    </main>
+
+    <footer class="footer">
+      <div class="icon-row">
+        <a href="#"><img src="./images/facebook.svg" alt="facebook"></a>
+        <a href="#"><img src="./images/linkedIn.svg" alt="linkedin"></a>
+        <a href="#"><img src="./images/free-instagram.webp" alt="linkedin"></a>
+      </div>
+
+      <div class="outro">
+        <p>Copyright &copy; 2023</p>
+        <p class="company">GuidentApp</p>
+        <p>Guident Edtech Solutions</p>
+      </div>
+    </footer>
+  </section>
+</body>
+</html>
